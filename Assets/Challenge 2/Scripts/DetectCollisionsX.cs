@@ -8,5 +8,9 @@ public class DetectCollisionsX : MonoBehaviour
     private void OnTriggerEnter(Collider other)
     {
         Destroy(gameObject);
+
+        Debug.Log("Game Over");
+    
+    
     }
 }
